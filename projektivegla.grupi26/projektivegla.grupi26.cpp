@@ -27,8 +27,16 @@ float divide(int a, int b){
         cout << "Error: Division by zero!" << endl;
         return 0;
     }
-    return  (float)a/b;
-}
+    return  (float)a/b; 
+} 
+int maxnumber (int a, int b) { 
+return (a>b) ? a : b; 
+} 
+int main() { 
+int a,b ;
+cout<<maxnumber(a,b)<<endl; 
+return 0; 
+} 
 
 int main()
 {
