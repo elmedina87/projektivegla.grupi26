@@ -8,8 +8,7 @@ using namespace std;
 int shuma(int a, int b) {
     return a + b;
 }
-int zbritja(int a, int b) {
-    return a - b;
+
 }
 int power(int base,int exp){
     return power(base,exp);
@@ -29,6 +28,12 @@ float divide(int a, int b){
     }
     return  (float)a/b;
 }
+int maxnumber (int a, int b) { 
+return (a>b) ? a : b; 
+} 
+
+
+
 
 int main()
 {
@@ -36,8 +41,12 @@ int main()
     cout << "jep vleren per x,y: ";
     cin >> x, y;    
     cout << "Shuma: " << shuma(x, y) << endl;
+    cout<<"Fuqia : " <<power(x,y) <<endl; 
+    cout<<"Moduli:" <<modul(x,y)<<endl; 
+    cout<<"Shumezimi : " <<multiply(x,y)<<endl; 
+    cout<<"Pjestimi : " <<divide(x,y)<<endl; 
    cout<<"zbritja:" <<zbritja (x,y)<<endl;
-   
+   cout<<"Maksimalja: " <<maxnumber(x,y)<<endl; 
        
 } 
 int zbritja(int a, int b) {
