@@ -8,6 +8,10 @@ using namespace std;
 int shuma(int a, int b) {
     return a + b;
 }
+int power(int base,int exp){
+    return power(base,exp);
+
+}
 
 int main()
 {
@@ -15,5 +19,9 @@ int main()
     cout << "jep vleren per x,y: ";
     cin >> x, y;
     cout << "Shuma: " << shuma(x, y) << endl;
+    int x, y;
+    cout << "jep vleren per x,y: ";
+    cin >> x, y;
+    cout << "Shuma: " << power(x, y) << endl;
 
 } 
