@@ -8,6 +8,9 @@ using namespace std;
 int shuma(int a, int b) {
     return a + b;
 }
+int zbritja(int a, int b) {
+    return a - b;
+}
 int power(int base,int exp){
     return power(base,exp);
 }
@@ -33,7 +36,9 @@ int main()
     cout << "jep vleren per x,y: ";
     cin >> x, y;    
     cout << "Shuma: " << shuma(x, y) << endl;
+   cout<<"zbritja:" <<zbritja (x,y)<<endl;
    
+       
 } 
 int zbritja(int a, int b) {
     return a - b;
