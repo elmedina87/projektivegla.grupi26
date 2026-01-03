@@ -32,7 +32,9 @@ float divide(int a, int b){
 int maxnumber (int a, int b) { 
 return (a>b) ? a : b; 
 } 
-
+int minnumber(int a,b) { 
+    return(a<b) ? a:b;
+} 
 
 
 int main()
@@ -42,7 +44,8 @@ int main()
     cin >> x, y;    
     cout << "Shuma: " << shuma(x, y) << endl;
    cout<<"zbritja:" <<zbritja (x,y)<<endl;
-    cout<<"Vlera maksimale :"<<maxnumber(a,b)<<endl; 
+    cout<<"Vlera maksimale :"<<maxnumber(x,y)<<endl; 
+    cout<<"Vlera minimale: " <<minnumber(x,y)<<endl; 
 return 0; 
 } 
 
