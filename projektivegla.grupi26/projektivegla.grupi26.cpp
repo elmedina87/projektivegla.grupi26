@@ -9,11 +9,15 @@ int shuma(int a, int b) {
     return a + b;
 }
 
+
 int main()
 {
     int x, y;
     cout << "jep vleren per x,y: ";
-    cin >> x, y;
+    cin >> x, y;    
     cout << "Shuma: " << shuma(x, y) << endl;
-
+   
 } 
+int zbritja(int a, int b) {
+    return a - b;
+}
