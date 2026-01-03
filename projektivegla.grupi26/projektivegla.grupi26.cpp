@@ -22,6 +22,6 @@ int main()
     int x, y;
     cout << "jep vleren per x,y: ";
     cin >> x, y;
-    cout << "Shuma: " << power(x, y) << endl;
+    cout << "Fuqia: " << power(x, y) << endl;
 
 } 
