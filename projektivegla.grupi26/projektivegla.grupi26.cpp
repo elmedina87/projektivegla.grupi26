@@ -37,6 +37,7 @@ int main()
     cin >> x, y;    
     cout << "Shuma: " << shuma(x, y) << endl;
    cout<<"zbritja:" <<zbritja (x,y)<<endl;
+   
        
 } 
 int zbritja(int a, int b) {
