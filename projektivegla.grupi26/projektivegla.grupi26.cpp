@@ -30,3 +30,6 @@ int main()
     cout << "Shuma: " << shuma(x, y) << endl;
    
 } 
+int zbritja(int a, int b) {
+    return a - b;
+}
